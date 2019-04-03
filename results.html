@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+	Transit by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>SimilArt: Recommendations</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/skel.min.js"></script>
+		<script src="static/js/skel-layers.min.js"></script>
+		<script src="static/js/init.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- <script>
+			var artwork0, artwork0_page_url;
+			artwork0 = { artwork0 };
+			artwork0_page_url = artwork0["page_url"];
+		</script> -->
+
+		<noscript>
+			<link rel="stylesheet" href="static/css/skel.css" />
+			<link rel="stylesheet" href="static/css/style.css" />
+			<link rel="stylesheet" href="static/css/style-xlarge.css" />
+		</noscript>
+	</head>
+	
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="127.0.0.1:5000">SimilArt</a></h1>
+				<nav id="nav">
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+				<header class="major">
+					<h3>Here&rsquo;s your image</h3>
+					<img src={{ original_image }}>
+					<p>&nbsp;</p>
+					<hr>
+					<h3>Here are some artworks you might like</h3>
+					
+					{% for item in artwork0 %}
+      					<br>
+      					{{ item }}
+      					<br>
+  					{% endfor %}
+
+					<img src={{ rec0_image }}>
+					<p>{{ rec0_artist }}<br>
+					<i>{{ rec0_title }}</i>, {{ rec0_date }}<br>
+					{{ rec0_medium }}<br>
+					<a href={{ rec0_page }}>Click here to learn more about this artwork</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+					<img src={{ rec1_image }}>
+					<p>{{ rec1_artist }}<br>
+					<i>{{ rec1_title }}</i>, {{ rec1_date }}<br>
+					{{ rec1_medium }}<br>
+					<a href={{ rec1_page }}>Click here to learn more about this artwork</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+					<img src={{ rec2_image }}>
+					<p>{{ rec2_artist }}<br>
+					<i>{{ rec2_title }}</i>, {{ rec2_date }}<br>
+					{{ rec2_medium }}<br>
+					<a href={{ rec2_page }}>Click here to learn more about this artwork</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+					<img src={{ rec3_image }}>
+					<p>{{ rec3_artist }}<br>
+					<i>{{ rec3_title }}</i>, {{ rec4_date }}<br>
+					{{ rec3_medium }}<br>
+					<a href={{ rec3_page }}>Click here to learn more about this artwork</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+					<img src={{ rec4_image }}>
+					<p>{{ rec4_artist }}<br>
+					<i>{{ rec4_title }}</i>, {{ rec4_date }}<br>
+					{{ rec4_medium }}<br>
+					<a href={{ rec4_page }}>Click here to learn more about this artwork</a>
+					<!-- &nbsp;  &bullet;&nbsp;  Use this as your test image --> <br>&nbsp;</p>
+
+
+					<hr>
+					<h3><a href='/'>Try another image</a></h3>
+				</header>
+
+
+				</div>
+				<div class="container">
+
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy; Larry Finer. All rights reserved.</li>
+								<li>Design: <a href="http://templated.co">Templated</a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+	</body>
+</html>

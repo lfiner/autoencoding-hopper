@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+	Transit by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>SimilArt</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/skel.min.js"></script>
+		<script src="static/js/skel-layers.min.js"></script>
+		<script src="static/js/init.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" href="static/css/skel.css" />
+			<link rel="stylesheet" href="static/css/style.css" />
+			<link rel="stylesheet" href="static/css/style-xlarge.css" />
+		</noscript>
+	</head>
+	<body class="landing">
+
+
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>SimilArt</h2>
+				<p>&nbsp;</p>
+				<ul class="actions">
+					<li>
+						<a href="https://whitney.org/collection/works/46345" class="button big">Edward Hopper, <i>Early Sunday Morning</i>, 1930</a>
+					</li>
+				</ul>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>Find artworks you love</h2>
+						<!-- <p>To use SimilArt, provide an image of an artwork.<br>SimilArt will then recommend several artworks that you&rsquo;ll like.</p> -->
+					</header>
+					<a name="try">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<!-- <a href='url'> -->
+								<section class="box">
+								<i class="icon big rounded color1 fa-cloud"></i>
+								<h3>Choose an image from the web</h3>
+								<!-- <p>Locate the image, then copy and paste its URL into the box below.</p> -->
+								<p>
+									<form action="/url" method='POST'>
+
+          Image URL: <br><input type="url" name="myurl"
+            size="40"><br><br>
+          <input type="submit" value="Use this URL"><br>
+          
+        </form>
+    </p>
+							</section>
+							<!-- </a> -->
+						</div>
+						<div class="6u 12u$(medium)">
+							<!-- <a href='upload'> -->
+								<section class="box">
+								<i class="icon big rounded color9 fa-desktop"></i>
+								<h3>Upload your own image</h3>
+								<!-- <p>Upload an image of an artwork you love &mdash; or any image!</p> -->
+								<p>
+									        <form action="/image" method='POST' enctype=multipart/form-data >
+          <!-- <label for="myfile">Option 1: Choose an image file from your computer.</label><br> -->
+          <!-- <input type="button" id="loadFileXml" value="Choose file" onclick="document.getElementById('file').click();" />
+          <input type="file" style="display:none;" id="file" name="file"/> -->
+          <input type="file" name="file"/><br><br><br><br>
+          <input type="submit" value="Upload this file"/><br>
+          
+          <!-- <button type="button" onClick="uploadimage()">Upload your file (button)</button> -->
+        </form>
+</p>
+							</section> <!-- </a> -->
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+		<!-- Footer -- temporarily commented out
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy; Larry Finer. All rights reserved.</li>
+								<li>Design: <a href="http://templated.co">Templated</a></li>
+							</ul>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<ul class="icons">
+								<li>
+									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-google-plus"><span class="label">Google+</span></a>
+								</li>
+								<li>
+									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+				-->
+	</body>
+</html>
