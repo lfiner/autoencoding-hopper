@@ -6,7 +6,7 @@ The goal of this project was to build a model that would take an image of an art
 
 1. Download artwork images and metadata from multiple sites  
    1a. Artspace  
-   1b. [Guggenheim]('1b. Download Guggenheim images and metadata.ipynb')  
+   1b. [Guggenheim]('./1b. Download Guggenheim images and metadata.ipynb')  
    1c. MoMA  
    1d. National Gallery of Art  
    1e. Tate  
