@@ -3,6 +3,7 @@
 March 2019
 
 Click the image below to watch a 4-minute video presentation summarizing my project.
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=BkVNG2aqQYY" target="_blank"><img src="http://img.youtube.com/vi/BkVNG2aqQYY/0.jpg" 
 alt="Autoencoding Hopper" width="480" height="360" border="10" /></a>
 
