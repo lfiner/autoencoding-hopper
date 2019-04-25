@@ -2,6 +2,9 @@
 [Larry Finer](mailto:lfiner@gmail.com)  
 March 2019
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=BkVNG2aqQYY" target="_blank"><img src="http://img.youtube.com/vi/BkVNG2aqQYY/0.jpg" 
+alt="Autoencoding Hopper" width="240" height="180" border="10" /></a>
+
 The goal of this project was to build a model that would take an image of an artwork and compare it visually to a corpus of more than 100,000 artworks from museums and other sources in order to find works that are similar visually. The main steps in the project were:
 
 1. Download artwork images and metadata from multiple sites.  
