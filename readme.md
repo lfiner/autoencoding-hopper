@@ -1,5 +1,5 @@
 # Autoencoding Edward Hopper:<br>Using deep learning to recommend art
-[Larry Finer](mailto:lfiner@gmail.com)  
+[LB Finer](mailto:lfiner@gmail.com)  
 March 2019
 
 Click the image below to watch a 4-minute video presentation summarizing my project.
